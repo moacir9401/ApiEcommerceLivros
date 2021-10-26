@@ -1,7 +1,9 @@
+using ApiEcommerceLivros.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +30,9 @@ namespace ApiEcommerceLivros
         {
 
             services.AddControllers();
+
+            services.AddDbContext<ToDoContext>(opt => opt.UseInMemoryDatabase(databaseName: "TodoProducts"));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiEcommerceLivros", Version = "v1" });
