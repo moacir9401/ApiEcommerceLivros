@@ -37,6 +37,8 @@ namespace ApiEcommerceLivros
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiEcommerceLivros", Version = "v1" });
             });
+
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +50,9 @@ namespace ApiEcommerceLivros
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiEcommerceLivros v1"));
             }
+
+            app.UseCors(options =>
+  options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

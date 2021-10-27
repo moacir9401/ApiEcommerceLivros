@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31521.260
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEcommerceLivros", "ApiEcommerceLivros\ApiEcommerceLivros.csproj", "{8BF19E6C-83AA-461A-A3DE-05EDF74B67BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEcommerceLivros", "ApiEcommerceLivros\ApiEcommerceLivros.csproj", "{1AFF8F50-E7D7-40B4-A168-1107F5F10F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BF19E6C-83AA-461A-A3DE-05EDF74B67BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BF19E6C-83AA-461A-A3DE-05EDF74B67BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BF19E6C-83AA-461A-A3DE-05EDF74B67BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BF19E6C-83AA-461A-A3DE-05EDF74B67BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFF8F50-E7D7-40B4-A168-1107F5F10F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFF8F50-E7D7-40B4-A168-1107F5F10F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFF8F50-E7D7-40B4-A168-1107F5F10F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFF8F50-E7D7-40B4-A168-1107F5F10F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {89426053-D7E5-466C-BEFF-4A42E2089DA1}
+		SolutionGuid = {0B4903AA-9461-4F99-B035-B83C080ED3AB}
 	EndGlobalSection
 EndGlobal
