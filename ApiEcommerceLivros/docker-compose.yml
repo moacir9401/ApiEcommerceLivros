@@ -2,9 +2,9 @@
 version: "3.4"
 
 services:
-  myapi:
-    container_name: myapi
-    image: myapi
+  ApiEcommerceLivros:
+    container_name: ApiEcommerceLivros
+    image: ApiEcommerceLivros
     environment:
       - PORT=5000
     ports:
